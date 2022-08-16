@@ -3,7 +3,7 @@
  
  ## The Workflow for the Bidding System
 Here is how it works:
-- The Home page: Users provide only their username, and the application saves this username for identification throughout the application. To keep the tutorial simple, we won't use any authentication library.
+- The Home page: Users provide only their username, and the application saves this username for identification throughout the application. To keep it simple, I didn't use any authentication library.
 - The Products page: Users can view all the products up for auction, click on each product to bid, and there is a call to action that redirects users to the page where they can add items for auction.
 The Add Products page: This page allows users to add the name and price of the auction item, then redirects them to the Products page to view the recently added item.
 - The Bid page: Users can bid for the item they selected from the Products page. This page accepts URL parameters containing the name and the price of the chosen item; then displays a form input that allows users to bid up the product.

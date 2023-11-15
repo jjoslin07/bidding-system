@@ -2,9 +2,39 @@
   "products": [
     {
       "name": "MacBook Pro M1",
-      "price": "3512",
+      "price": "4555",
       "owner": "jjoslin07",
-      "last_bidder": "damin07"
+      "last_bidder": "Dennis3434"
+    },
+    {
+      "name": "Airpods",
+      "price": "205",
+      "owner": "joslinj",
+      "last_bidder": "david2252"
+    },
+    {
+      "name": "Candle",
+      "price": "82",
+      "owner": "david2252",
+      "last_bidder": "david2252"
+    },
+    {
+      "name": "Audi 250",
+      "price": "500000",
+      "owner": "admiralty20",
+      "last_bidder": "samson35"
+    },
+    {
+      "name": "Lamborghini S50",
+      "price": "200000",
+      "owner": "susaske40",
+      "last_bidder": "geraldt01"
+    },
+    {
+      "name": "Ferrari F560",
+      "price": "100000",
+      "owner": "samson35",
+      "last_bidder": "admiralty20"
     }
   ]
 }

@@ -80,7 +80,8 @@ th {
 	flex-direction: column;
 }
 .products__cta {
-	width: 70%;
+	width: 20%;
+	min-width: 300px;
 	background-color: rgb(67, 143, 67);
 	padding: 15px;
 	color: #fff;
@@ -122,4 +123,17 @@ th {
 }
 .bidProduct__name {
 	margin-bottom: 20px;
+}
+/* Example CSS for the home link */
+.sign-out-link {
+	text-decoration: none;
+	color: #3498db; /* Set the color you prefer */
+	font-weight: bold;
+	margin-right: 20px; /* Adjust the margin as needed */
+	transition: color 0.3s ease; /* Add a smooth transition effect on color change */
+
+	/* Hover effect */
+	&:hover {
+		color: #e74c3c; /* Set the hover color */
+	}
 }

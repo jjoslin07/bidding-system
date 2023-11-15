@@ -32,7 +32,7 @@ const Products = () => {
 							<th>Price</th>
 							<th>Last Bidder</th>
 							<th>Creator</th>
-							<th>Edit</th>
+							<th>BID</th>
 						</tr>
 					</thead>
 					<tbody>

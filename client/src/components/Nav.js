@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 
 const Nav = ({ header, socket }) => {
+	const location = useLocation();
 	const [notification, setNotification] = useState('');
 
 	useEffect(() => {
@@ -22,13 +24,20 @@ const Nav = ({ header, socket }) => {
 			);
 		});
 	}, [socket]);
+	const isProductPage = location.pathname === '/products'; // Adjust the path as needed
 
 	return (
 		<nav className="navbar">
 			<div className="header">
 				<h2>{header}</h2>
 			</div>
-
+			{isProductPage && (
+				<div>
+					<Link to="/" className="sign-out-link">
+						Sign Out
+					</Link>
+				</div>
+			)}
 			<div>
 				<p style={{ color: 'red' }}>{notification}</p>
 			</div>
